@@ -1857,8 +1857,7 @@ dependencies = [
 [[package]]
 name = "dns-update"
 version = "0.2.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4b1baeebebc5beebbbe4e76e28a0d7f83e34975e84858258c30a0adf75c5c964"
+source = "git+https://github.com/justin-mercer/dns-update?branch=fix-rfc2136-txt-chunking#1a1c2cd2ac0d484e823be88bf1f193f6547057f4"
 dependencies = [
  "aws-lc-rs",
  "base64 0.22.1",
