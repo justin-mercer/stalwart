@@ -1857,7 +1857,7 @@ dependencies = [
 [[package]]
 name = "dns-update"
 version = "0.2.4"
-source = "git+https://github.com/justin-mercer/dns-update?branch=fix-rfc2136-txt-chunking#1a1c2cd2ac0d484e823be88bf1f193f6547057f4"
+source = "git+https://github.com/justin-mercer/dns-update?branch=fix-rfc2136-txt-chunking#4769361eef436198c635f3544f1357594653eab3"
 dependencies = [
  "aws-lc-rs",
  "base64 0.22.1",
